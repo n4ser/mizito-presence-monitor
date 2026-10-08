@@ -1,0 +1,21 @@
+# Credentials, state and local runtime output
+/config.php
+/runtime/
+*.log
+*.log.*
+*.done
+*result.txt
+*.lock
+alert-state*.json
+*.backup*
+.env
+.env.*
+!.env.example
+
+# Editor/OS and temporary artifacts
+.DS_Store
+.idea/
+.vscode/
+*.swp
+*.tmp
+/vendor/
